@@ -41,7 +41,6 @@ public class LoginDialog extends javax.swing.JFrame {
     public void doAuthenticate(){
         this.authenticated = true;
         System.out.println(userID);
-        System.out.println(password);
         System.out.println(authenticated);
     }
     
